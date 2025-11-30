@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
       rel="stylesheet"
     />
-     <link rel="stylesheet" href="./css/estilos.css" />  
+     <link rel="stylesheet" href="../css/estilos.css" />  
     <title>Home</title>
   </head>
-  <body>
+<body>
     <header class="header">
       <p class="header__logo">
-        <a href="./index.html">Home</a>
+        <a href="../index.html">Home</a>
       </p>
       <nav class="header__nav">
         <ul>
           <li>
-            <a href="./pages/contacto.html">Contacto</a>
+            <a href="./contacto.html">Contacto</a>
           </li>
           <li>
             <a href="./pages/carrito.html" class="carrito-icono">
               🛒 <span id="contador-carrito">0</span>
             </a>
-          </li> 
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="titulo-home">
-        <h1>Tienda de Pasteles Angie</h1>
-        <p class="parrafo-home">Pasteles y tortas para disfrutar y festejar.</p> 
-      </section>
-      <section class="productos-home">
-        <h2>Productos Destacados</h2>
-        <div id ="contenedorTarjetas" class="contenedor-tarjetas">
-           <!-- Productos destacados -->
+      <section class="carrito-home">
+        <h1>Carrito de compras</h1>
+        <div id="contenedor-carrito">
+          <!-- Productos del carrito -->
         </div>
-      </section>
+        <div class="acciones-carrito" id="acciones-carrito">
+          <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+        </div>
+       </section>
     </main>
     <footer class="footer">
       <p>Pagina diseñada por Angie (2025)</p>
@@ -50,7 +49,7 @@
         </ul>
       </nav>
     </footer>
-  <!-- Enlazo el js -->
-  <script type="module" src="./js/index.js"></script>
- </body>
+   <!-- Enlazo el js -->
+  <script type="module" src="../js/carrito.js"></script>
+</body>
 </html>

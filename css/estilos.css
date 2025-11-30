@@ -67,6 +67,14 @@ body {
   padding: 1rem;
 }
 
+.header__nav span {
+  font-size: rem;
+  color: #0a0700;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
 .footer {
   font-family: "DM Serif Text", serif;
   font-size: 1.6rem;
@@ -172,8 +180,77 @@ main .parrafo-home {
   font-size: 2rem;
   font-weight: bold;
 }
+/* -------------------------------------------------------------------------- */
+/*                               BOTONES                                      */
+/* -------------------------------------------------------------------------- */
+.btn {
+  background-color: #ceb2c7;
+  color: rgb(65, 56, 56);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
 
+.btn:hover {
+  background-color: #ceb2c7;
+}
 
+.btn-eliminar-carrito {
+  background-color: #ceb2c7;
+}
+.btn-vaciar-carrito {
+  background-color: #e5e6e8;
+  color: #1d1a20;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.btn-vaciar-carrito:hover {
+  background-color: #e5e6e8;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Carrito                                   */
+/* -------------------------------------------------------------------------- */
+
+.carrito-home {
+  /*width: 100%;*/
+  background-color: #ceb2c7;
+ }
+
+ .carrito-home h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+ }
+
+.contenedor-carrito {
+  font-family: "DM Serif Text", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e6e8;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                  Contacto                                  */

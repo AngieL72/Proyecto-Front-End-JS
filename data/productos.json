@@ -1,0 +1,6 @@
+ [
+    {"id": "1","nombre": "Pastel de Bodas",     "precio": 50000, "imagen":"img/PastelBoda.jpg"},
+    {"id": "2","nombre": "Torta de Cumpleaños", "precio": 40000, "imagen":"img/TortaCumple.jpg"},
+    {"id": "3","nombre": "Torta Rogel",         "precio": 30000, "imagen":"img/TortaRogel.jpg"},
+    {"id": "4","nombre": "Pastafrola",          "precio": 20000, "imagen":"img/PastelBoda.jpg"}
+]
